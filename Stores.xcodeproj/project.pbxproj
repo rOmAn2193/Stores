@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E45AE26F1C38BBB5004F597F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45AE26E1C38BBB5004F597F /* AppDelegate.swift */; };
 		E45AE2711C38BBB5004F597F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45AE2701C38BBB5004F597F /* FirstViewController.swift */; };
-		E45AE2731C38BBB5004F597F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45AE2721C38BBB5004F597F /* SecondViewController.swift */; };
+		E45AE2731C38BBB5004F597F /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45AE2721C38BBB5004F597F /* LocationVC.swift */; };
 		E45AE2761C38BBB5004F597F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45AE2741C38BBB5004F597F /* Main.storyboard */; };
 		E45AE2781C38BBB5004F597F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45AE2771C38BBB5004F597F /* Assets.xcassets */; };
 		E45AE27B1C38BBB5004F597F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45AE2791C38BBB5004F597F /* LaunchScreen.storyboard */; };
+		E45AE2831C390E08004F597F /* StoresAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45AE2821C390E08004F597F /* StoresAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E45AE26B1C38BBB5004F597F /* Stores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stores.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45AE26E1C38BBB5004F597F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E45AE2701C38BBB5004F597F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E45AE2721C38BBB5004F597F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E45AE2721C38BBB5004F597F /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		E45AE2751C38BBB5004F597F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E45AE2771C38BBB5004F597F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E45AE27A1C38BBB5004F597F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E45AE27C1C38BBB5004F597F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45AE2821C390E08004F597F /* StoresAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				E45AE26E1C38BBB5004F597F /* AppDelegate.swift */,
 				E45AE2701C38BBB5004F597F /* FirstViewController.swift */,
-				E45AE2721C38BBB5004F597F /* SecondViewController.swift */,
+				E45AE2721C38BBB5004F597F /* LocationVC.swift */,
 				E45AE2741C38BBB5004F597F /* Main.storyboard */,
 				E45AE2771C38BBB5004F597F /* Assets.xcassets */,
 				E45AE2791C38BBB5004F597F /* LaunchScreen.storyboard */,
 				E45AE27C1C38BBB5004F597F /* Info.plist */,
+				E45AE2821C390E08004F597F /* StoresAnnotation.swift */,
 			);
 			path = Stores;
 			sourceTree = "<group>";
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E45AE2731C38BBB5004F597F /* SecondViewController.swift in Sources */,
+				E45AE2831C390E08004F597F /* StoresAnnotation.swift in Sources */,
+				E45AE2731C38BBB5004F597F /* LocationVC.swift in Sources */,
 				E45AE26F1C38BBB5004F597F /* AppDelegate.swift in Sources */,
 				E45AE2711C38BBB5004F597F /* FirstViewController.swift in Sources */,
 			);
